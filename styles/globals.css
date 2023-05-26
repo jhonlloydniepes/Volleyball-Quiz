@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial";
+  font-size: large;
+}
+body {
+  background-image: url("../public/424904.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.Blur {
+  background: firebrick;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.All
+{
+  display: flex; 
+  justify-items: center;
+  border-radius: 5px;
+  color: white
+}
+.All::-webkit-scrollbar
+{
+  display: none;
+}
+.B1 p:first-child
+{
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
